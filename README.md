@@ -1,27 +1,27 @@
+<pre>
+
 Metrohud by Dragon/ipad_john/nsx
 
 
-v2.3! ///////////////////////////////////////////
-Fixed all issues created by the 2024 Halloween Update (shoutout CriticalFlaw)
-Added minmode (finally)
-Updated scoreboard 
-Changed the Main menu a little 
-Other small tweaks here and there 
+v2.3! 
+  -Fixed all issues created by the 2024 Halloween Update (shoutout CriticalFlaw)
+  
+  -Added minmode (finally)
+  
+  -Updated scoreboard 
+  
+  -Other small tweaks here and there 
+  
+  More coming soonTM
 
 
 
-More coming soonTM
-/////////////////////////////////////////////////
+Metrohud is currently only tested working for 16:9 and windows
 
 
 
 
-
-metrohud is currently only tested working for 16:9 and windows
-
-
-
-Huge thanks/credit to: (in no particular order)  //
+Huge thanks/credit to: (in no particular order)  
 JarateKing
 Papa Peaches
 Nubbi
@@ -40,26 +40,10 @@ Vabe
 Hypnotize
 Doodle
 CriticalFlaw
-//////////////////////////////////////////////////
-
-
-
 
 
 Not sure if the fonts need to be manually installed but if I 
 see one more person with verdana in their hud because 
-they didnt install fonts properly i'm going to kill myself
+they didnt install fonts properly i'm going to <del> commit seppuku </del>
 
-
-
-
-
-other shit in here //////////////////////
-
-speedometer "ui/speedometer.res"
-other hudplayerclass angles 
-12v12, 6v6, dynamic scoreboard 
-////////////////////////////////////////
-
-
-
+</pre>
