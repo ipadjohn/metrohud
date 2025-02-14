@@ -1,3 +1,5 @@
+<pre>
+
 Metrohud by Dragon/ipad_john/nsx
 
 v2.4! ///////////////////////////////////////////
@@ -13,18 +15,12 @@ v2.3! ///////////////////////////////////////////
 
 
 
-More coming soonTM
-/////////////////////////////////////////////////
+Metrohud is currently only tested working for 16:9 and windows
 
 
 
 
-
-metrohud is currently only tested working for 16:9 and windows
-
-
-
-Huge thanks/credit to: (in no particular order)  //
+Huge thanks/credit to: (in no particular order)  
 JarateKing
 Papa Peaches
 Nubbi
@@ -43,26 +39,17 @@ Vabe
 Hypnotize
 Doodle
 CriticalFlaw
-//////////////////////////////////////////////////
 
 
-
+Thank you to my testers: 
+Car
+Yen
+Fleura 
+Jasper 
 
 
 Not sure if the fonts need to be manually installed but if I 
 see one more person with verdana in their hud because 
-they didnt install fonts properly i'm going to kill myself
+they didnt install fonts properly i'm going to <del> commit seppuku </del>
 
-
-
-
-
-other shit in here //////////////////////
-
-speedometer "ui/speedometer.res"
-other hudplayerclass angles 
-12v12, 6v6, dynamic scoreboard 
-////////////////////////////////////////
-
-
-
+</pre>
