@@ -63,7 +63,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"K"
+		"labelText"				"V"
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"

@@ -19,7 +19,7 @@
 		"wide"			"0"
 		"tall"			"f0"
 		"autoResize"	"0"
-		"pinCorner"		"0"
+		"pinCorner"		"1"
 		"visible"		"0"
 		"enabled"		"0"
 		"fov"			"70"
@@ -137,7 +137,7 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MatchDoors"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
@@ -187,36 +187,36 @@
 		}
 	}
 
-"RoundCounter"
+	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"		"c-150"
-		"ypos"		"22"
+		"xpos"		"c-151"
+		"ypos"		"23"
 		"zpos"		"7"
-		"wide"		"300"
+		"wide"		"301"
 		"tall"		"15"
 		"visible"		"1"
 		"enabled"		"1"
 
 		"indicator_start_offset"	"0"
-		"indicator_max_wide"		"25"
+		"indicator_max_wide"		"45"
 
 		"RoundIndicatorPanel_kv"
 		{
 			"ypos"		"0"
-			"wide"		"4"
-			"tall"		"2"
+			"wide"		"8"
+			"tall"		"3"
 			"zpos"		"7"
-			"image"		"replay/thumbnails/blank"
+			"image"		"replay/thumbnails/bg_blank"
 			"scaleImage"		"1"
-			"fillcolor"		"GrayDarkest"
-			"alpha"		"180"
+			"fillcolor"		"0 0 0 180"
+
 		}
 		"RoundWinPanelRed_kv"
 		{
 			"ypos"		"0"
-			"wide"		"4"
-			"tall"		"2"
+			"wide"		"8"
+			"tall"		"3"
 			"zpos"		"8"
 			"image"		"replay/thumbnails/bg_red"
 			"scaleimage"		"1"
@@ -224,14 +224,22 @@
 		"RoundWinPanelBlue_kv"
 		{
 			"ypos"		"0"
-			"wide"		"4"
-			"tall"		"2"
+			"wide"		"8"
+			"tall"		"3"
 			"zpos"		"8"
 			"image"		"replay/thumbnails/bg_blu"
 			"scaleimage"		"1"
 		}
 		"Background"
-		{"visible"	"1"}
+		{
+			"ypos"		"0"
+			"visible"	"0"
+			"wide"		"80"
+			"fillcolor"	"zephyrclear"
+			"tall"		"3"
+			
+		
+		}
 	}
 
 	"BGFrame"
@@ -335,7 +343,7 @@
 			"color_portrait_bg_red_dead"	"0 0 0 165"
 			"color_portrait_bg_blue_dead"	"0 0 0 165"
 			"color_bar_health_high"	"white"
-			"color_bar_health_med"	"220 225 0 255"
+			"color_bar_health_med"	"255 255 20 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"255 35 10 255"
 			"percentage_health_low"	"0.3"
@@ -372,7 +380,7 @@
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
-		"healthbar"
+			"healthbar"
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
@@ -389,9 +397,11 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "255 255 255 255"
+				"bgcolor_override"	   "23 23 23 170"
 				"proportionaltoparent"	"1"
 			}
+			
+			
 			"overhealbar"
 			{	
 				"ControlName"			"ContinuousProgressBar"
@@ -422,7 +432,7 @@
 				"zpos"				"3"
 				"wide"				"32"
 				"tall"				"32"
-				"visible"			"0"
+				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"

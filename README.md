@@ -1,12 +1,15 @@
 Metrohud by Dragon/ipad_john/nsx
 
+v2.4! ///////////////////////////////////////////
+-Fixed Healthbars in match hud 
+-Fixed Round counters in match hud 
 
 v2.3! ///////////////////////////////////////////
-Fixed all issues created by the 2024 Halloween Update (shoutout CriticalFlaw)
-Added minmode (finally)
-Updated scoreboard 
-Changed the Main menu a little 
-Other small tweaks here and there 
+-Fixed all issues created by the 2024 Halloween Update (shoutout CriticalFlaw)
+-Added minmode (finally)
+-Updated scoreboard 
+-Changed the Main menu a little 
+-Other small tweaks here and there 
 
 
 
