@@ -22,7 +22,7 @@
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"-38"
+		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -95,9 +95,9 @@
 		"tabxindent"	"30"
 		"tabxdelta"		"10"
 		"tabxfittotext"	"1"
-		"tabheight"		"20"
+		"tabheight"		"30"
 		"transition_time" "0"
-		"yoffset"		"40"
+		"yoffset"		"0"
 		
 		"HeaderLine"
 		{

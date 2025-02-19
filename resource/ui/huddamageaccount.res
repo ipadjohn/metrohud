@@ -9,8 +9,8 @@
 		"PositiveColor"			"Healing Numbers"
 		"NegativeColor"			"Damage Numbers"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"BNDMG"
-		"delta_item_font_big"	"BNDMG"
+		"delta_item_font"		"BNDMGOL"
+		"delta_item_font_big"	"BNDMGOL"
 	}
 
 	

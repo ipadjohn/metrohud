@@ -36,9 +36,9 @@
 		"controlName"		"ImagePanel"
 		"fieldName"		"Speed1"
 		"xpos"		"9999" // 343 // c-85 widescreen
-		"xpos_minmode"	"9999" //354
+		"xpos_minmode"	"9999" //354 //c12
 		"ypos"		"c92"
-		"ypos_minmode"	"c82"
+		"ypos_minmode"	"c130"
 		"wide"	 "10"
 		"tall"	 "10"
 		"image"		"replay/thumbnails/speedometer/xspeed1"

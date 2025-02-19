@@ -1,73 +1,68 @@
 "Resource/UI/HudPlayerHealth.res"
+
 {	
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-195"
-		"xpos_minmode"			"c-184"
+		"xpos"			"c-135"
+		"xpos_minmode"			"c-110"
 		"ypos"			"c35"
-		"ypos_minmode"	"c26"
+		"ypos_minmode"	"c67"
 		"zpos"			"2"
-		"wide"			"170"
-		"tall"			"120"
+		"HealthBonusPosAdj"	"110"
+		"wide"			"48"
+		"tall"			"30"
+		"tall_minmode"			"25"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"35"
-		"ypos"			"52"
-		"zpos"			"4"
-		"wide"			"17"
-		"tall"			"17"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		
 
+		//"HealthDeathWarning"	".45"
+		"HealthDeathWarning"	"1"
+		
+		"HealthDeathWarningColor"	"blank"
 	}
-	"PlayerStatusHealthImageBG"
+	
+	"HealthAnchor"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"45999" //45
-		"ypos"			"38"
+		"ControlName"		"Panel"
+		"fieldName"		"HealthAnchor"
+		"xpos"		"40"
+		"ypos"		"0"
+		"ypos_minmode"			"-5"
+		"wide"		"1"
+		"tall"		"30"
+		"visible"		"1"
+	}
+
+
+	"PlayerStatusHealthBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusHealthBG"
+		"xpos"			"-9"
+		"ypos"			"-9"
 		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"72"
+		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"
-		//"fillcolor" "0 0 0 0"
-		"image"			"replay\thumbnails\quake\health_icon"
-		"scaleImage"	"1"	
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"99999"	[$WIN32]
-		"ypos"			"99999"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"40"	[$WIN32] //45
-		"tall"			"40"	
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
-	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"50"
-		"ypos"			"25"
+		"xpos"			"-27"
+		"ypos"			"-11"
+		"ypos_minmode"			"-16"
 
 		"zpos"			"5"
 		"wide"			"100"
@@ -108,24 +103,127 @@
 		
 		
 	}
-	"PlayerStatusHealthBG"
+
+
+//_______________________________________________________
+	
+
+
+	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayerStatusHealthBG"
-		"xpos"			"-9"
-		"ypos"			"-9"
-		"zpos"			"3"
-		"wide"			"72"
-		"tall"			"32"
+		"ControlName"		"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"		"80"
+		"ypos"		"27"
+		"ypos_minmode"			"22"
+		"zpos"		"2"
+		"wide"		"1"
+		"tall"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"		"replay/thumbnails/panels/blank"
+		"drawcolor"		"0 0 0 0"
+		"scaleImage"		"1"
+	}
+	
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"		"80"
+		"ypos"		"37"
+		"zpos"		"2"
+		"wide"		"1"
+		"tall"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"		"replay/thumbnails/panels/blank"
+		"drawcolor"		"0 0 0 0"
+		"scaleImage"		"1"
+	}
+	
+	"HealthBarBG"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"HealthBarBG"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"5"
+		"wide"		"f0"
+		"tall"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"Blank"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"zephyrclear"
 
-		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_to_sibling"		"HealthAnchor"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"6"
 	}
+
+	"HealthBar"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"HealthBar"
+		"xpos"		"31"
+		"ypos"		"2"
+		"zpos"		"6"
+		"wide"		"50"
+		"tall"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"WhiteFull"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"7"
+	}
+	"HealthBarOverheal"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"HealthBarOverheal"
+		"xpos"		"-331"
+		"ypos"		"2"
+		"zpos"		"7"
+		"wide"		"250"
+		"tall"		"3"
+		"visible"		"0"
+		"enabled"		"1"
+		"bgcolor_override"		"50 150 255 255"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+	}
+	
+	"HealthBarLowHealth"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"HealthBarLowHealth"
+		"xpos"		"-10"
+		"zpos"		"5"
+		"ypos"      "-23"
+		"wide"		"100"
+		"tall"		"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"Health Low"
+		"alpha"		"150"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"4"
+	}
+	
+
+
+/_______________________________________________________
+
+
+
+
+
+
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -186,59 +284,35 @@
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
-
-	"MFDAnchor"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MFDAnchor"
-		"xpos"										"-63"
-		//"xpos_minmode"								"-38"
-		"ypos"										"-19"
-		//"ypos_minmode"								"-16"
-		"wide"										"2"
-		"tall"										"30"
-		"visible"									"1"
-		"enabled"									"1"
-
-		"pin_to_sibling"							"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-	
-
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"85"
-		"ypos"			"20"
+		"ypos"			"25"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/icons/markedfordeath"
+		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
-
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"85"
+		"ypos"			"10"
 		"zpos"			"7"
 		"wide"			"19"
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/icons/markedfordeath"
+		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"							"MFDAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -355,7 +429,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
 		"xpos"			"85"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"7"
 		"wide"			"19"
 		"tall"			"19"
@@ -364,9 +438,6 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"							"MFDAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -374,7 +445,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
 		"xpos"			"85"
-		"ypos"			"0s"
+		"ypos"			"10"
 		"zpos"			"7"
 		"wide"			"19"
 		"tall"			"19"
@@ -383,9 +454,6 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"							"MFDAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -393,7 +461,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"			"85"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"7"
 		"wide"			"19"
 		"tall"			"19"
@@ -402,9 +470,6 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"							"MFDAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -619,4 +684,54 @@
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
+		"TeamBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TeamBG"
+		"xpos"				"-27"
+		"ypos"				"-8"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"	 			"4"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"labelText"			"%Health%"
+		"textAlignment"		"East"
+		"fgcolor"			"TransparentBlack"
+		"auto_wide_tocontents"    "1"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../vgui/replay/thumbnails/bg_blu_transparent"
+		"scaleImage"		"1"
+		"teambg_1"			"../vgui/replay/thumbnails/bg_red_transparent"
+		"teambg_2"			"../vgui/replay/thumbnails/bg_red_transparent"
+		"teambg_3"			"../vgui/replay/thumbnails/bg_blu_transparent"
+		
+		"src_corner_height"			"40"				// pixels inside the image
+		"src_corner_width"			"40"			
+		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+	}
+
+//	
+//	
+//	"PlayerStatusHealthImageBG"
+//	{
+//		"ControlName"	"ImagePanel"
+//		"fieldName"		"PlayerStatusHealthImageBG"
+//		"xpos"			"45999" //45
+//		"ypos"			"38"
+//		"zpos"			"3"
+//		"wide"			"30"
+//		"tall"			"30"
+//		"visible"		"0"
+//		"enabled"		"0"
+//		//"fillcolor" "0 0 0 0"
+//		"image"			"replay\thumbnails\quake\health_icon"
+//		"scaleImage"	"1"	
+//	}
 }

@@ -1,5 +1,6 @@
 
 
+
 "Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
@@ -310,27 +311,27 @@
 	{
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
-		"xpos"			"0"
-		"ypos"			"2"
+		"xpos"			"c-106"
+		"ypos"			"-8"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"75"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 
 
-		"max_size"	"22"
+		"max_size"	"45"
 
-		"6v6_gap"	"2"
+		"6v6_gap"	"200"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-48"
-		"team1_max_expand"	"220"
+		"team1_base_x"	"45"
+		"team1_max_expand"	"9999"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c48"
-		"team2_max_expand"	"220"
+		"team2_max_expand"	"0"
 		
 
 		"playerpanels_kv"
@@ -348,7 +349,7 @@
 			"color_bar_health_med"	"255 255 20 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"255 35 10 255"
-			"percentage_health_low"	"0.3"
+			"percentage_health_low"	"0.4"
 			"color_portrait_blend_dead_red"	"white"
 			"color_portrait_blend_dead_blue" "white"
 
@@ -356,17 +357,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
-				"zpos"			"5"
-				"wide"			"50"
+				"font"			"MatchPlayerName"
+				"xpos"			"1"
+				"ypos"			"12"
+				"zpos"			"8"
+				"wide"			"f0"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
+				"enabled"		"0"
 				"visible"		"0"
+				"labelText"		"%playername%"
 			}
-
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -376,8 +378,8 @@
 				"zpos"			"7"
 				"wide"			"20"
 				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"../vgui/replay/thumbnails/class_sel_sm_scout_red"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
@@ -391,8 +393,8 @@
 				"zpos"			"-5"
 				"wide"			"f0"
 				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
@@ -402,10 +404,10 @@
 				"fieldName"				"healthbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"21"
+				"ypos"					"r141"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"3"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -417,6 +419,8 @@
 				"proportionaltoparent"	"1"
 			}
 			
+
+			
 			
 			"overhealbar"
 			{	
@@ -424,10 +428,10 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"21"
+				"ypos"					"r141"
 				"zpos"					"6"
-				"wide"					"45"
-				"tall"					"2"				
+				"wide"					"95"
+				"tall"					"3"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -577,8 +581,6 @@
 			}
 		}
 	}
-	
-	
 
 	"BlueTeamPanel"
 	{

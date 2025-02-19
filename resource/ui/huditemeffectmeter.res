@@ -37,7 +37,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
-		"xpos"			"0"
+		"xpos"			"6"
 		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"120"
@@ -48,8 +48,8 @@
 		"labelText"			"#TF_Ball"
 		"fgcolor_override" "MeterText3"
 		"textAlignment"			"center"
-		"font"				"nü8"
-				"tall_minmode"          "0"
+		"font"				"Hudfontsmallest"
+				//"tall_minmode"          "1"
 	}
 
 	"ItemEffectMeter"

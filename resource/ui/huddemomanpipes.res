@@ -62,7 +62,7 @@
 				"ypos_minmode"			"21"
 		"zpos"			"2"
 		"wide"			"50"
-		"wide_minmode"			"46"
+		"wide_minmode"			"50"
 		"tall"			"3"				
 		"autoResize"	"0"
 		"pinCorner"		"0"

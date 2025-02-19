@@ -2,6 +2,15 @@
 
 Metrohud by Dragon/ipad_john/nsx
 
+v2.5  ///////////////////////////////////////////
+>> Feb 18 update fixes
+>> These are quick fixes for now. More visually appealing fixes coming later 
+-Fixed Killstreak Fabrication and crafting menus 
+-Fixed Headers in shop and loadout ( STATS BUTTON ONLY WORKS IF CLICKED ON THE BOTTOM OF THE BUTTON)
+-Fixed Menus strange offset 
+-Other Misc changes 
+
+
 v2.4! ///////////////////////////////////////////
 -Fixed Healthbars in match hud 
 -Fixed Round counters in match hud 

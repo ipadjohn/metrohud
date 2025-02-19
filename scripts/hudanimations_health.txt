@@ -1,20 +1,10 @@
-/////////////////////////////
-//
-//
-// uncomment for healthbar use
-//
-//
-//////////////////////////////
-
-
-
 
 
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
+	
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.0
 
 	Animate PlayerStatusHealthValue		FgColor		"Health Buff"	Linear 0.0	0.050 // "130 255 155 245"
 	Animate PlayerStatusHealthValue		FgColor		"Health Buff 2"		Linear 0.125	0.075 //"120 240 145 245"
@@ -24,36 +14,22 @@ event HudHealthBonusPulse
 
 	Animate PlayerStatusHealthValueshadow 		FgColor		"Health Buff Shadow"	Linear 0.0 	0.075
 	Animate	PlayerStatusHealthValueShadow		FgColor		"Health Buff Shadow 2"		Linear 0.125 	0.075
-	
-
-	Animate PlayerStatusHealthImageBG		Alpha	"0"		Accel 0.0 0.2
-	Animate PlayerStatusHealthImageBG	Alpha	"0"		Accel 0.0 0.0
-
-	Animate PlayerStatusHealthImage		Alpha	"0"		Accel 0.0 0.2
-	Animate PlayerStatusHealthImage	    Alpha	"0"		Accel 0.0 0.0 	
-
-	Animate HealthBarBuff		Alpha	"255"		Accel 0.0 0.0
-	Animate HealthBarBuff2	Alpha	"255"		Accel 0.0 0.0
-	
-	Animate HealthBarBuff		Alpha	"0"			Accel 0.0 0.2
-	Animate HealthBarBuff2		Alpha	"255"		Accel 0.1 0.1
-	
+		
 	Animate HealthBarBuffSpec		Alpha	"255"		Accel 0.0 0.0
 	Animate HealthBarBuffSpec2	Alpha	"255"		Accel 0.0 0.0
 	Animate HealthBarBuffSpec3	Alpha	"255"		Accel 0.0 0.0
 	Animate HealthBarBuffSpec4	Alpha	"255"		Accel 0.0 0.0
+
+	SetVisible HealthBarLowHealth 0 0.0
+	
+
 	
     SetVisible HealthBarOverheal 1 0.0
 
-	SetVisible HealthBarLowHealth 1 0.0
-	Animate HealthBarLowHealth	bgcolor	"255 255 255 255"	Linear 0.0 0.001
-	
-	
+
 	SetVisible HealthBar 0 0.0
-
-	//SetVisible HealthSpectatorBarBuff 0 0.0
-
-	Animate HealthBarBG	bgcolor	"White"	Linear 0.0 0.001
+	
+	Animate HealthBarBG	bgcolor	"white"	Linear 0.0 0.001
 		
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -68,6 +44,9 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	Animate PlayerStatusHealthValue		FgColor		"Health"	Linear 0.0	0.050 
+	Animate PlayerStatusHealthValue		FgColor		"Health"		Linear 0.125	0.075 
 
 	Animate PlayerStatusHealthValueShadow		FgColor		"zephyrclear"	Linear 0.0	0.0
 	Animate	PlayerStatusHealthValueShadow	    FgColor		"zephyrclear"	Linear 0.125 0.075
@@ -82,10 +61,11 @@ event HudHealthBonusPulseStop
 	Animate HealthBarBuffSpec3	Alpha	"0"		Accel 0.0 0.0
 	Animate HealthBarBuffSpec4	Alpha	"0"		Accel 0.0 0.0
 	
-		SetVisible HealthBarOverheal 0 0.0
 
-	Animate HealthBarLowHealth	bgcolor	"255 5 5 255"	Linear 0.0 0.001
+	SetVisible HealthBarOverheal 0 0.0
+
 	SetVisible HealthBarLowHealth 0 0.0
+
 	
 	SetVisible HealthBar 1 0.0
 
@@ -101,8 +81,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		    Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		    Linear 0.125 0.075
 
 	Animate PlayerStatusHealthValueshadow		FgColor		"Health Low Shadow"		Linear 0.0	0.075
 	Animate PlayerStatusHealthValueshadow		FgColor		"Health Low Shadow"	    Linear 0.125	0.075
@@ -110,8 +90,8 @@ event HudHealthDyingPulse
 	////Animate PlayerStatusHealthValueshadow		FgColor		"zephyrclear"		Linear 0.0	0.075 
 	////Animate PlayerStatusHealthValueshadow		FgColor		"zephyrclear"	    Linear 0.125	0.075
 
-	Animate PlayerStatusHealthValue		FgColor		"200 50 50 255"		Linear 0.0 0.075 //
-	Animate PlayerStatusHealthValue		FgColor		"210 60 60 255"	    Linear 0.125 0.075 //
+	Animate PlayerStatusHealthValue		FgColor		"Health Low"		Linear 0.0 0.075 // "200 50 50 255"
+	Animate PlayerStatusHealthValue		FgColor		"Health Low 2"	    Linear 0.125 0.075 // "210 60 60 255"	 
 	
 	Animate PlayerStatusHealthValueSpec 	FgColor		"Health Low"	Linear 0.0	0.050 // "130 255 155 245"	
 	Animate PlayerStatusHealthValueSpec		FgColor		"Health Low 2"		Linear 0.125	0.075 //"120 240 145 245"
@@ -131,7 +111,9 @@ event HudHealthDyingPulse
 	
 	////Animate HealthBarBG	bgcolor	"zephyrclear"	Linear 0.0 0.001
 	
-	////SetVisible HealthBarLowHealth 1 0.0
+	SetVisible HealthBarLowHealth 1 0.0
+	
+	
 	
 	RunEvent HudHealthDyingPulseLoop	0.5
 }
@@ -164,10 +146,10 @@ event HudHealthDyingPulseStop
 	Animate HealthBarHurtSpec2		Alpha	"0"		Accel 0.0 0.0
 		
 	////SetVisible HealthSpectatorBarHurt 0 0.0
-	////SetVisible HealthBarLowHealth 0 0.0
+	SetVisible HealthBarLowHealth 0 0.0
 	
-	Animate PlayerStatusHealthImage		Alpha	"0"		Accel 0.0 0.2
-	Anmate PlayerStatusHealthImage	    Alpha	"0"		Accel 0.0 0.0 
+	//Animate PlayerStatusHealthImage		Alpha	"0"		Accel 0.0 0.2
+	//Animate PlayerStatusHealthImage	    Alpha	"0"		Accel 0.0 0.0 
 	
 	////Animate HealthBarBG	bgcolor	"zephyrclear"	Linear 0.0 0.001
 }

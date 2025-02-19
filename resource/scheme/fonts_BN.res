@@ -3540,17 +3540,17 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
                 "dropshadow"	"0"
-				"outline" "1"
+				"outline" "0"
 				"blur" "0"
 			}
 		}
-		"BNDMGMIN"           //Used for damage num minmode
+		"BNDMGOL"           //Used for damage num minmode
 		{
 			"1"
 			{
 				"name"			"BoldNumbersNM"
-				"tall"		"14"
-				"additive"	"0"
+				"tall"		"16"
+				"additive"	"1"
 				"antialias" 	"1"
                 "dropshadow"	"0"
 				"outline" "1"
