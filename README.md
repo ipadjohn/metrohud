@@ -27,30 +27,30 @@ Metrohud is currently only tested working with 16:9 Aspect Ratio and Windows
 
 
 ###Huge thanks/credit to: (in no particular order)  
-	- JarateKing
-	- Papa Peaches
-	- Nubbi
-	- Amp-T
-	- Sammy
-	- Jofre
-	- Watterson 
-	- Nokk
-	- Omnibombulator
-	- Nat
-	- Whayay
-	- Colly
-	- sAven
-	- Yttrium
-	- Vabe
-	- Hypnoootize
-	- Doodle
+	- JarateKing\
+	- Papa Peaches\
+	- Nubbi\
+	- Amp-T\
+	- Sammy\
+	- Jofre\
+	- Watterson\ 
+	- Nokk\
+	- Omnibombulator\
+	- Nat\
+	- Whayay\
+	- Colly\
+	- sAven\
+	- Yttrium\
+	- Vabe\
+	- Hypnoootize\
+	- Doodle\
 	- CriticalFlaw
 
 
 ###Thank you to my testers: 
-	- Car
-	- Yen
-	- Fleura 
+	- Car\
+	- Yen\
+	- Fleura\
 	- J2sper 
 
 
