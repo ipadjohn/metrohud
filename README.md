@@ -1,14 +1,12 @@
 <pre>
 
-Metrohud by Dragon/ipad_john/nsx
+## Metrohud by Dragon/ipad_john/nsx
 
 https://steamcommunity.com/groups/metrohud
 
-(https://imgur.com/rqHK0A2)
-(https://imgur.com/F854XQ8)
 
-
-
+![Ingame Screenshot] (https://imgur.com/rqHK0A2)
+![Main Menu](https://imgur.com/F854XQ8)
 
 
 v2.6 ///////////////////////////////////////////
