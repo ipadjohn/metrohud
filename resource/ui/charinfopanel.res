@@ -19,7 +19,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"character_info"
 		"xpos"			"0"
-		"ypos"			"-30"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -140,7 +140,7 @@
 		"tabwidth"		"150"
 		"tabheight"		"20"
 		"transition_time" "0"
-		"yoffset"		"40"
+		"yoffset"		"5"
 		"zpos"			"1"
 		
 		"HeaderLine"
@@ -161,7 +161,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"0"
-			"textinsety"		"0"
+			"textinsety"		"3"
 			"font"				"nüBold16"
 			"selectedcolor"		"nüWhite"
 			"unselectedcolor"	"120 120 120 150"	
