@@ -4,8 +4,8 @@ Metrohud by Dragon/ipad_john/nsx
 
 https://steamcommunity.com/groups/metrohud
 
-https://imgur.com/rqHK0A2
-https://imgur.com/F854XQ8
+![alt text] (https://imgur.com/rqHK0A2)
+![alt text] (https://imgur.com/F854XQ8)
 
 
 Up next: 
