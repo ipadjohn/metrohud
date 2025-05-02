@@ -4,15 +4,11 @@ Metrohud by Dragon/ipad_john/nsx
 
 https://steamcommunity.com/groups/metrohud
 
-![alt text] (https://imgur.com/rqHK0A2)
-![alt text] (https://imgur.com/F854XQ8)
+(https://imgur.com/rqHK0A2)
+(https://imgur.com/F854XQ8)
 
 
-Up next: 
 
-Scoreboard completion
-Hud Crosshair overhaul 
-New secondary font?
 
 
 v2.6 ///////////////////////////////////////////
@@ -21,6 +17,12 @@ v2.6 ///////////////////////////////////////////
 -Fixed Loadout and Stats buttons in the inventory screen
 -Removed Healer Medigun names in favor of icons. (If you want them back keep your old "chat_english.txt" in metrohud/resource)
 -Small winpanel.res fixes 
+
+Up next: 
+
+Scoreboard completion
+Hud Crosshair overhaul 
+New secondary font?
 
 
 v2.5  ///////////////////////////////////////////
