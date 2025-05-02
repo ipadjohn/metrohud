@@ -8,17 +8,17 @@ https://imgur.com/rqHK0A2
 https://imgur.com/F854XQ8
 
 
-v2.6 
-	**May 1 TF2 Update fixes** 
-	- Fixed Broken Inventory Screens Caused by the May 1 TF2 update 
-	- Fixed Loadout and Stats buttons in the inventory screen
-	- Removed Healer Medigun names in favor of icons. (If you want them back keep your old "chat_english.txt" in metrohud/resource)
+## v2.6 
+	**May 1 TF2 Update fixes**\ 
+	- Fixed Broken Inventory Screens Caused by the May 1 TF2 update\ 
+	- Fixed Loadout and Stats buttons in the inventory screen\
+	- Removed Healer Medigun names in favor of icons. (If you want them back keep your old "chat_english.txt" in metrohud/resource)\
 	- Small winpanel.res fixes 
 
 	**Up next: **
 
-	- Scoreboard completion
-	- Hud Crosshair overhaul 
+	- Scoreboard completion\
+	- Hud Crosshair overhaul\
 	- New secondary font?
 
 
@@ -26,7 +26,7 @@ v2.6
 Metrohud is currently only tested working with 16:9 Aspect Ratio and Windows
 
 
-###Huge thanks/credit to: (in no particular order)  
+### Huge thanks/credit to: (in no particular order)  
 	- JarateKing\
 	- Papa Peaches\
 	- Nubbi\
@@ -47,7 +47,7 @@ Metrohud is currently only tested working with 16:9 Aspect Ratio and Windows
 	- CriticalFlaw
 
 
-###Thank you to my testers: 
+### Thank you to my testers: 
 	- Car\
 	- Yen\
 	- Fleura\
