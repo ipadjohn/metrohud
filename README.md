@@ -9,7 +9,7 @@ https://imgur.com/F854XQ8
 
 
 v2.6 
-May 1 TF2 Update fixes 
+* May 1 TF2 Update fixes 
 - Fixed Broken Inventory Screens Caused by the May 1 TF2 update 
 - Fixed Loadout and Stats buttons in the inventory screen
 - Removed Healer Medigun names in favor of icons. (If you want them back keep your old "chat_english.txt" in metrohud/resource)
@@ -23,8 +23,8 @@ New secondary font?
 
 
 v2.5  
-Feb 18 TF2 Update broke some stuff
-These are quick fixes for now. More visually appealing fixes coming later 
+* Feb 18 TF2 Update broke some stuff
+* These are quick fixes for now. More visually appealing fixes coming later 
 - Fixed Killstreak Fabrication and crafting menus 
 - Fixed Headers in shop and loadout ( STATS BUTTON ONLY WORKS IF CLICKED ON THE BOTTOM OF THE BUTTON)
 - Fixed Menus strange offset 
