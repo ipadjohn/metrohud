@@ -1,4 +1,3 @@
-<pre>
 
 ## Metrohud by Dragon/ipad_john/nsx
 
@@ -82,4 +81,4 @@ Not sure if the fonts need to be manually installed but if I
 see one more person with verdana in their hud because 
 they didnt install fonts properly i'm going to <del> commit seppuku </del>
 
-</pre>
+
