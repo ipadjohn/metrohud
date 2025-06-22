@@ -1,65 +1,67 @@
-Metrohud by Dragon/ipad_john/alex_f/captainunderpants
 
-v2.0! ///////////////////////////////////////////
-Fixed all issues created by the 2024 Halloween Update (shoutout CriticalFlaw)
-Added minmode (finally)
-Added new scoreboard with additional options for 12v12 and 6v6 (normal scoreboard switches with minmode)
-Changed the Main menu a little 
-Other small tweaks here and there 
+## Metrohud by Dragon/ipad_john/nsx
 
+Join the steam group!
+https://steamcommunity.com/groups/metrohud
 
+Hud questions here:
+https://steamcommunity.com/groups/metrohud/discussions/0/596273710810322542/
 
-More coming soonTM
-/////////////////////////////////////////////////
+https://imgur.com/a/NTpeUfB
 
+## v2.7
+	June 22 update
+	- Updated Localization Files.
+	- Re-added Casual/Comp rank toggle button to Main Menu. 
+	- Added labels to menu buttons for accessibility.
+	- Tweaked first backpack screen.
+	- Updated Sourcescheme colors to match hud theme.
+	- Added new background to loading and statsummary screens. (not final)
+	- Bandaid fixed the shop.
+	- New custom Killstreak Icon.
+	- More...
 
-
-
-
-metrohud is currently only tested working for 16:9 and windows
-
-
-
-Huge thanks/credit to: (in no particular order)  //
-JarateKing
-Papa Peaches
-Nubbi
-Amp-T
-Sammy
-Jofre
-Watterson 
-Nokk
-Omnibombulator
-Nat
-Whayay
-Colly
-sAven
-Yttrium
-Vabe
-Hypnoootize
-Doodle
-CriticalFlaw
-Renogare
-//////////////////////////////////////////////////
+	Possibly next:
+	- Rank/ stats panel with badge on main menu 
+	- More settings buttons  
+	- Scoreboard completion
+	- Hud Crosshair overhaul
+	- New secondary font?
 
 
 
+Metrohud is currently only tested working with 16:9 Aspect Ratio and Windows
 
 
-Not sure if the fonts need to be manually installed but if I 
-see one more person with verdana in their hud because 
-they didnt install fonts properly i'm going to kill myself
+### Huge thanks/credit to: (in no particular order)  
+	- JarateKing
+	- Papa Peaches
+	- Nubbi
+	- Amp-T
+	- Sammy
+	- Jofre
+	- Watterson
+	- Nokk
+	- Omnibombulator
+	- Nat
+	- Whayay
+	- Colly
+	- sAven
+	- Yttrium
+	- Vabe
+	- Hypnoootize
+	- Doodle
+	- CriticalFlaw
+	- Renogare
 
 
+### Thank you to my testers: 
+	- Car
+	- Yen
+	- Fleura
+	- J2sper 
 
 
-
-other shit in here //////////////////////
-
-speedometer "ui/speedometer.res"
-other hudplayerclass angles 
-12v12, 6v6, dynamic scoreboard 
-////////////////////////////////////////
 
 
 
