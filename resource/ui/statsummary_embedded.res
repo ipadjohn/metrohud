@@ -19,9 +19,9 @@
 			"fieldName"		"MenuBG"
 			"zpos"			"-2"
 			"wide"			"f0"
-			"tall"			"480"
+			"tall"			"f0"
 			"visible"		"1"
-			"image"			"../vgui/replay/thumbnails/background_upward"
+			"image"			"../vgui/replay/thumbnails/background_metalworks"
 			"scaleImage"	"1"
 		}
 	    "ShaderBG"
@@ -32,7 +32,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"fillcolor"		"TransparentBlack"
+			"fillcolor"		"0 0 0 220" //"0 0 0 0"//
 		}
 	}
 	"MainBackground"

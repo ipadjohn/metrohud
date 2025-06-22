@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"40"
+		"xpos"			"50"
 		"ypos"			"r30"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -49,29 +49,21 @@
 		"font"					"nü12"
 		"fgcolor_override"		"blank"
 	}	
-	"ItemEffectMeterLabel1"
+	"ItemEffectMeter1"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel1"
-		"xpos"					"-30"
-		"ypos"					"8"
-		"zpos"					"10"
-		"wide"					"50"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"V"
-		"textAlignment"			"east"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	
-		
-		"font"					"Symbols 12"
-		"fgcolor_override"		"white"
-	}
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeter1"
+		"xpos"			"10"
+		"ypos"			"11"
+		"zpos"			"1"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/icons/blackks"
+		"proportionaltoparent"	"1"
+	}		
 	
 		"ItemEffectMeterLabel2"
 	{

@@ -132,6 +132,11 @@ Scheme
 			"font" "resource/fonts/Montserrat SemiBold.ttf"
 			"name" "Montserrat SemiBold"
 		}
+		"23"
+		{
+			"font" "resource/fonts/Renogare Uber.ttf"
+			"name" "Renogare Uber"
+		}
 		
 	}
 }

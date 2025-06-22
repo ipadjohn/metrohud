@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 // Material Preloads
 // Don't touch!
 #base "../../resource/tools/ReloadMenuButton.res"
@@ -1387,12 +1388,12 @@
 
 	}	
 
-	"Topline"
+	"Topline" // thank you topline i love you 
 	{
 		"ControlName"				"editablepanel"
 		"fieldName"					"Topline"
 		"xpos"						"c-205" 
-		"ypos"						"r294"
+		"ypos"						"r174"
 		"zpos"						"0"
 		"wide"						"390"
 		"tall"						"1"
@@ -1991,7 +1992,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Disconnect"
-		"xpos"										"-40"
+		"xpos"										"-44"
 		"ypos"										"70"
 		"zpos"										"15"
 		"wide"										"120"
@@ -2071,7 +2072,7 @@
 		"enabled"		"0"
 		"fillcolor"			"0 0 0 220"
 		"onlyinmenu"    "1"
-		//"image"			"replay/thumbnails/panels/TriangleDOWN"
+		"image"			"replay/thumbnails/panels/TriangleDOWN"
 		//"fgcolor_override" "0 0 0 255"
 		//"defaultfgcolor_override" "0 0 0 255"
 
@@ -2103,7 +2104,197 @@
 		"fillcolor"		"20 20 20 100"
 	}
 
+		"ServersLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"ServersLabel"
+		"font"			"BN10"
+		"labelText"		"Servers"
+		"textAlignment"	"center"
+		"xpos"			"-10"
+		"ypos"			"-20"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"Servers"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
 	
+	"itemsLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"itemsLabel"
+		"font"			"BN10"
+		"labelText"		"items"
+		"textAlignment"	"center"
+		"xpos"			"-10"
+		"ypos"			"-88"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"Items2"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
+	
+	"StoreLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"StoreLabel"
+		"font"			"BN10"
+		"labelText"		"Store"
+		"textAlignment"	"center"
+		"xpos"			"-7"
+		"ypos"			"-18"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"Store"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
+	
+	"SettingsLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"SettingsLabel"
+		"font"			"BN10"
+		"labelText"		"Settings"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"-16"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"Settings"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
+	
+	"QuitLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"quitLabel"
+		"font"			"BN10"
+		"labelText"		"quit"
+		"textAlignment"	"center"
+		"xpos"			"-10"
+		"ypos"			"-88"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"Quit"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
+	
+	"consoleLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"consoleLabel"
+		"font"			"BN10"
+		"labelText"		"console"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"-36"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"console"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
+	
+	"demoLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"demoLabel"
+		"font"			"BN10"
+		"labelText"		"demoui"
+		"textAlignment"	"center"
+		"xpos"			"43"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"demouibutton"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
+	
+	"advLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"advLabel"
+		"font"			"BN10"
+		"labelText"		"advanced"
+		"textAlignment"	"center"
+		"xpos"			"-11"
+		"ypos"			"-22"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		
+		"pin_to_sibling" 							"advanced"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+		
+	}
 	
 	//START OF MENU
 
@@ -2502,9 +2693,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"9999" //410
-		"ypos"			"110"
+		"xpos"			"5" //410
+		"ypos"			"28"
+		"zpos"			"5"
 		"wide"			"10"
+		
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2528,8 +2721,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"image_drawcolor"	"130 130 130 255"
-		"image_armedcolor"	"nüWhite"
+		"image_drawcolor"	"transparentblack"
+		"image_armedcolor"	"white"
 
 		"SubImage"
 		{
@@ -2537,20 +2730,22 @@
 			"fieldName"		"SubImage"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"zpos"			"5"
+			"wide"			"20"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"replay/thumbnails/buttons/dropdown"
+			
+			"image_drawcolor"	"transparentblack"
+			"fgcolor_override" "transparentblack"
 
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"mouseinputenabled"	"1"
 			"keyboardinputenabled" "0"
 		}		
 	}
-
 	"RankTooltipPanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -4768,7 +4963,7 @@
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
-			"xpos"			"0"
+			"xpos"			"-8"
 			"ypos"			"0"
 			"zpos"			"500"
 			"wide"			"f0"
@@ -4780,7 +4975,7 @@
 			"inset_x"		"15"
 			"inset_y"		"5"
 			"row_gap"		"5"
-			"column_gap"	"5"
+			"column_gap"	"7"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"

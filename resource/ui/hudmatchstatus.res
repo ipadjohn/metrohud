@@ -322,15 +322,15 @@
 		"max_size"	"22"
 
 		"6v6_gap"	"2"
-		"12v12_gap"	"1"
+		"12v12_gap"	"2"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-48"
-		"team1_max_expand"	"220"
+		"team1_max_expand"	"240"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c48"
-		"team2_max_expand"	"220"
+		"team2_max_expand"	"240"
 		
 
 		"playerpanels_kv"
@@ -378,7 +378,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/class_sel_sm_scout_red"
+				"image"			"../hud/scout_classred"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -495,17 +495,19 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"nü10"
+				"font"			"BN12"
 				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"8"
+				"ypos"			"-2"
+				"zpos"			"9"
 				"wide"			"f0"
+				"fgcolor_override"			"245 245 245 255"
 				"bgcolor_override"			"0 0 0 0"
 				"bgcolor"			"0 0 0 120"
 				"paintbackground"			"1"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
+				
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
@@ -564,7 +566,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
-				"xpos"			"9999"
+				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"8"
 				"wide"			"17"

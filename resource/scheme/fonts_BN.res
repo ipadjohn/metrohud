@@ -3488,19 +3488,81 @@ Scheme
 			}
 		}
 		
-		
-	
-
-		
-		"TargetID_medicprcnt"
+		"uber8"
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Renogare Uber"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+                "dropshadow"	"0"
+			}
+		}
+		
+		"uber9"
+		{
+			"1"
+			{
+				"name"			"Renogare Uber"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+                "dropshadow"	"1"
+			}
+		}
+	
+		"uber10"
+		{
+			"1"
+			{
+				"name"			"Renogare Uber"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+                "dropshadow"	"1"
+			}
+		}
+		
+		"uber12"
+		{
+			"1"
+			{
+				"name"			"Renogare Uber"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"0"
+				"outline"	"0"
+                "dropshadow"	"0"
+			}
+		}
+		
+		"uber14"
+		{
+			"1"
+			{
+				"name"			"Renogare Uber"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"0"
+				"outline"	"0"
+                "dropshadow"	"0"
+			}
+		}
+		
+	
+		"uber18"
+		{
+			"1"
+			{
+				"name"			"Renogare Uber"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"outline"	"0"
                 "dropshadow"	"0"
 			}
 		}
@@ -3548,7 +3610,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BoldNumbersNM"
+				"name"			"BoldNumbers"
 				"tall"		"16"
 				"additive"	"1"
 				"antialias" 	"1"

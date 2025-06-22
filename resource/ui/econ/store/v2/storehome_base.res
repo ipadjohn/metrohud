@@ -246,10 +246,10 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"f0"
-			"tall"			"f0"
+			"tall"			"1000"
 			"visible"		"1"
 			"enable"		"1"
-			"image"			"store/store_bg001"
+			"image"			  "store/store_bg001" ///"../vgui/replay/thumbnails/background_upward"
 			"scale_image"	"1"
 			"proportiontoparent"	"1"
 		}

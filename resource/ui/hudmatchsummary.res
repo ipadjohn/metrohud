@@ -167,7 +167,7 @@
 		"font"			"nüBold16"
 		"labelText"		"Match Summary"
 		"textAlignment"		"west"
-		"xpos"			"30"
+		"xpos"			"99999"
 		"ypos"			"0"
 		"zpos"			"50"
 		"wide"			"f0"

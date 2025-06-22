@@ -21,16 +21,21 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"9999" // 141
-		"ypos"			"9999" // 10 
+		"ypos"			"-17" // 10 
 		"zpos"			"-1"
-		"wide"			"2"
-		"tall"	 		"30"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"0"
+		"wide"			"f0"
+		"tall"	 		"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+
 		"image"				"replay/thumbnails/bg_red"	
 		"teambg_2"			"replay/thumbnails/bg_red"
 		"teambg_3"			"replay/thumbnails/bg_blu"
+		
+		"pin_to_sibling"							"TargetNamelabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	
@@ -116,18 +121,21 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"BN8"
+		"font"			"uber12"
 		"xpos"			"0"
-		"ypos"			"-15"
+		"ypos"			"-14"
 		"zpos"			"1"
-		"wide"			"280"
+		"wide"			"100"
 		"tall"			"40"
 		"visible"		"1"
+		"paintbackground"	"0"
+		"proportionaltoparent" 	"1"
 
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
 		"fgcolor_override"		"240 240 0 255"
+		"bgcolor_override"		"0 0 0 160"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -150,19 +158,21 @@
 	
 	"AmmoIcon"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"42"
+		"xpos"			"32"
 		"ypos"			"2"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"Symbols 10"
+		"font"			""
 		"labelText"		"I"
-		"image"			"replay/thumbnails/icons/map"
+		"image"			"../vgui/replay/thumbnails/icons/ammo_icon"
 		"scaleImage"	"1"
+		
+
 	}
 
 	"KillStreakIconAnchor"

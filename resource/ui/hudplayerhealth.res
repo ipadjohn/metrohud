@@ -218,7 +218,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/icons/markedfordeath"
+		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 
 	}
@@ -234,7 +234,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/icons/markedfordeath"
+		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling"							"MFDAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"

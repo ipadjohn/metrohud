@@ -12,7 +12,6 @@
 		"delta_item_font"		"BNDMGOL"
 		"delta_item_font_big"	"BNDMGOL"
 	}
-
 	
 	"DamageAccountValue"
 	{
@@ -29,7 +28,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"190 190 190 190"
+		"fgcolor"		"white"
 		"font"			"BN12"
 
 	}
@@ -55,4 +54,5 @@
 		"pin_corner_to_sibling"		"1"
         "pin_to_sibling_corner"		"1"
 	}
+	
 }

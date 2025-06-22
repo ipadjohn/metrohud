@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"nüBLUSolid"
+		"bgcolor_override"	"zephyrmenu"
 	}
 
 	"TextLabel"

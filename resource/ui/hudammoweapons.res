@@ -89,9 +89,11 @@
 		"font"			"BN18"
 
 		"fgcolor"		"Ammo In Reserve"
+		//"fgcolor"		"0 150 100 255"
 		"xpos"			"55"
-		"xpos_minmode"			"52"
+		"xpos_minmode"			"51"
 		"ypos"			"15"
+
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"50"

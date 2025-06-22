@@ -22,6 +22,7 @@
 	{
 		"label" 									"j"
 		"command" 									"OpenServerBrowser"
+		//"tooltip"									"Servers"
 		
 	}
 	
@@ -29,24 +30,28 @@
 	{
 		"label"										"1"
 		"command"									"engine open_charinfo"
+		//"tooltip"									"Inventory"
 		
 	}
 	"Settings"
 	{
 		"label"										"s"
 		"command"									"OpenOptionsDialog"
+		//"tooltip"									"Settings"
 		
 	}
 	"Advanced"
 	{
 		"label"										"d"
 		"command"									"opentf2options"
+		//"tooltip"									"Adv. Options"
 		
 	}
 	"Store"
 	{
 		"label"										"N"
 		"command"									"engine open_store"
+		//"tooltip"									"Store"
 		
 	}
 	"Quit"
@@ -55,6 +60,7 @@
 		"command" 									"engine replay_confirmquit"
 		
 		"OnlyAtMenu"								"1"
+		//"tooltip"									"Ragequit"
 	}
 	
 	"Console"
@@ -62,13 +68,14 @@
 		"label"										"("
 		"command"									"engine toggleconsole; clear"
 		//"tooltip"									"Open Console"
+		//"tooltip"									"Console"
 		"OnlyInGame"								"0"
 	}
 	"Demoui"
 	{
 		"label"										"^"
 		"command"									"engine demoui"
-		//"tooltip"									"Open Console"
+		//"tooltip"									"DemoUI"
 
 	}
 	"Disconnect"
@@ -78,6 +85,7 @@
 		//"subimage" 									"replay/thumbnails/panels/TriangleDOWN50"
 		"OnlyInGame" 								"1"
 	}
+
 
 
 	

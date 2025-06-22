@@ -26,32 +26,36 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"9999"	[$WIN32]
-		"xpos_minmode"	"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"ypos_minmode"	"9999"	[$WIN32]
+		"xpos"			"9999" //"15"	[$WIN32]
+		"xpos_minmode"	"9999"   //15	[$WIN32]
+		"ypos"			"r54"	[$WIN32]
+		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
-		"wide"			"75"
+		"wide"			"37"
 		"wide_minmode"	"37"
-		"tall"			"75"
+		"tall"			"37"
 		"tall_minmode"	"37"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/class_scoutred"
+		"image"			"" //"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"99999"		//3 [$WIN32]
+		"xpos_minmode"	"9999"        //-5	[$WIN32]
+		"ypos"			"r67"	[$WIN32]
+		"ypos_minmode"	"r44"	[$WIN32]
+		"xpos"			"35"	[$X360]
+		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"27"
 		"wide_minmode"	"27"
-		"tall"			"55"
+		"tall"			"27"
 		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"0"
@@ -71,9 +75,9 @@
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
-		"wide"			"55"
+		"wide"			"27"
 		"wide_minmode"	"27"
-		"tall"			"55"
+		"tall"			"27"
 		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"0"

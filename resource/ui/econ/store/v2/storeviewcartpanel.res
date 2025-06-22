@@ -503,8 +503,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"r30"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"r5"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"20"
@@ -549,7 +549,48 @@
 			"image"			"replay/thumbnails/buttons/back"
 			"proportionaltoparent"	"1"
 		}
-	}		
+	}	
+
+	"CloseButton2"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"CloseButton2"
+		"xpos"				"3"
+		"ypos"			    "r25"
+		"zpos"				"2"
+		"wide"			    "70"
+		"tall"				"22"
+		"autoResize"		"0"
+		"pinCorner"			"3"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Close (&Q)"
+		"font"				"HudFontSmallBold"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"default"			"0"
+		"Command"			"close"
+		
+		"AllCaps"					"0"
+		
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"MaterialBlackLight"
+		"border_armed"				"MaterialBlackLight"
+		
+		"defaultBgColor_override"	"nüBase"
+		"armedBgColor_override"		"nüDarkGrey"
+		"depressedBgColor_override" "nüBase"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"255 255 255 255"
+		"depressedFgColor_override" "White"
+	}	
 	
 	"CheckoutButton"
 	{

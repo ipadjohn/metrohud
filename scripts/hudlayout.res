@@ -550,9 +550,10 @@
 		"visible" "0"
 		"enabled" "0"
 		"wide"	 "f0"
-		"ypos"			"f0"//"9999" f0
-		"textfont" "default"
-		"font"   "BN10"
+		"xpos"	"20"
+		"ypos"			"-22" 
+		"textfont" "BN10"
+		"ItemFont"	"BN10"
 		"tall"	 "480"
 	}
 
@@ -701,6 +702,7 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
+
 	}
 	
 	HudScopeCharge
@@ -1222,7 +1224,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"10"
-		"ypos"					"50"
+		"ypos"					"5000"
 		"wide"					"200"
 		"tall"					"300"
 	}
@@ -1626,6 +1628,20 @@
         "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
+	"Filterpanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"		"Filterpanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"0 15 20 100"
+	}
 	
 	"TransparentViewmodelMask" //Uncomment for transparent viewmodels
 	{

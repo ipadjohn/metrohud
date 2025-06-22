@@ -6,10 +6,10 @@ Scheme
 		//-----------------------------------------
 		
 		"Health"				"240 240 240 255"
-		"Health Buff"			"40 130 190 255"  // hp pickup  "50 140 230 255"
+		"Health Buff"			"40 130 190 255"  // hp pickup  "40 130 190 255"
 		"Health Buff 2"			"50 140 230 255"  //            "50 140 230 255"
-		"Health Buff Shadow"	"0 50 100 225"  
-		"Health Buff Shadow 2"	"10 60 120 225"
+		"Health Buff Shadow"	"0 50 100 225"  // 0 50 100 225
+		"Health Buff Shadow 2"	"10 60 120 225"	// 10 60 120 225
 		"Health Shadow"         "2 156 110 245"
 		"Health Low"			"200 50 50 255"
 		"Health Low 2"			"220 60 60 255"
@@ -258,6 +258,8 @@ Scheme
 		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
 		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
+		
+		
 		
 		"SaleGreen"								"76 107 34 255"
 		

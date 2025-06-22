@@ -33,9 +33,9 @@ Scheme
 		"SecondaryText"		"240 240 240 255"
 		"AccentText"		"240 240 240 255"
 		
-		"PrimaryBG"				"22 22 22 255"
-		"PrimaryBGOffFocus"		"22 22 22 255"
-		"SecondaryBG"			"33 33 33 255"
+		"PrimaryBG"				"10 10 10 255"
+		"PrimaryBGOffFocus"		"8 8 8 255"
+		"SecondaryBG"			"20 20 20 255"
 		"AccentBG"				"255 152 0 255"
 		
 		"NotoWhite"				"240 240 240 255"
@@ -228,8 +228,8 @@ Scheme
 		MainMenu.DepressedTextColor	"150 150 150 128"
 		MainMenu.MenuItemHeight		"25"
 		MainMenu.Backdrop			"0 0 0 0"
-		Console.TextColor			"NotoWhite"
-		Console.DevTextColor		"White"
+		Console.TextColor			"14 180 200 255"
+		Console.DevTextColor		"14 180 200 255"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"NotoGreen"

@@ -209,7 +209,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"99999" //5
+			"xpos"			"9999" //5
 			"ypos"			"34"
 			"wide"			"130"
 			"zpos"			"100"

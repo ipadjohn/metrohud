@@ -52,7 +52,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"nüMedium8"
+		"font"					"BN8"
 		"mouseinputenabled"		"0"
 	}
 
@@ -72,7 +72,7 @@
 		"labelText"				"%status%"
 		"proportionaltoparent"	"1"
 		"font"					"QuestObjectiveTracker_Desc"
-		"fgcolor_override"				"TanDark"
+		"fgcolor_override"				"white"
 		"mouseinputenabled"		"0"
 	}
 }

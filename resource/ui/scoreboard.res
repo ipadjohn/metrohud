@@ -15,7 +15,7 @@
 		"tabPosition"								"0"
 		"medal_width"		"1"
 		"medal_column_width" "0"
-		"avatar_width"								"22"
+		"avatar_width"								"25"
 		"spacer"									"0"
 		"name_width"								"200"
 		"nemesis_width"								"15"
@@ -97,7 +97,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore"
 		"font"										"BN24"
-		"fgcolor"   								"tanlight"
+		"fgcolor"   								"nüBLUsolid"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"center"
 
@@ -128,7 +128,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore2"
 		"font"										"BN24"
-		"fgcolor"   								"nüBLUsolid"
+		"fgcolor"   								"zephyrclear"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"center"
 
@@ -162,7 +162,7 @@
 	{
 		"ControlName"				"editablepanel"
 		"fieldName"					"FRAMEBLUE"
-		"xpos"						"227" //204 (for 16:10)
+		"xpos"						"c-200" //204 (for 16:10)
 		"ypos"						"265"
 		"zpos"						"2"
 		"wide"						"200"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"				"editablepanel"
 		"fieldName"					"FRAMERED"
-		"xpos"						"427" //204 (for 16:10)
+		"xpos"						"c1" //204 (for 16:10)
 		"ypos"						"265"
 		"zpos"						"2"
 		"wide"						"200"
@@ -214,8 +214,8 @@
 			"tall"						"1"
 			"autoResize"				"0"
 			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 			"PaintBackground"                            "1"
 			"bgcolor_override"                           "0 0 0 245"
 			
@@ -237,8 +237,8 @@
 			"tall"						"1"
 			"autoResize"				"0"
 			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 			"PaintBackground"                            "1"
 			"bgcolor_override"                           "0 0 0 245"
 			
@@ -261,8 +261,8 @@
 			"tall_minmode"						"13"
 			"autoResize"				"0"
 			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 			"PaintBackground"                            "1"
 			"bgcolor_override"                           "0 0 0 245"
 			
@@ -285,8 +285,8 @@
 			"tall_minmode"						"13"
 			"autoResize"				"0"
 			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 			"PaintBackground"                            "1"
 			"bgcolor_override"                           "0 0 0 245"
 			
@@ -300,8 +300,8 @@
 	{
 		"ControlName"				"editablepanel"
 		"fieldName"					"MainBG"
-		"xpos"						"227" //204 (for 16:10)
-		"xpos_minmode"				"227"
+		"xpos"						"c-200" //204 (for 16:10)
+
 		"ypos"						"266"
 		"ypos_minmode"				"266"
 		"zpos"						"0"
@@ -332,7 +332,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore"
 		"font"										"BN26"
-		"fgcolor"   								"tanlight"
+		"fgcolor"   								"nüREDsolid"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"center"
 
@@ -363,7 +363,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore2"
 		"font"										"BN26"
-		"fgcolor"   								"nüREDsolid"
+		"fgcolor"   								"zephyrclear"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"center"
 
@@ -505,13 +505,13 @@
 		"fieldName"									"ServerLabel"
 		"font"										"BN8"
 		"labelText"									"%server%"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		"alpha"										"255"
-		"xpos"										"250"
+		"xpos"										"c-190"
 		"ypos"										"448"
 		"ypos_minmode"				"376"
 		"zpos"										"10"
-		"wide"										"135"
+		"wide"										"200"
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
@@ -529,9 +529,9 @@
 		"fieldName"									"mapname"
 		"font"										"BN8"
 		"labelText"									"%mapname%"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"alpha"										"255"
-		"xpos"										"337"
+		"xpos"										"c-210"
 		"ypos"										"448"
 		"ypos_minmode"				"376"
 		"zpos"										"10"
@@ -1461,6 +1461,200 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"ScoreboardMedium"
+			}
+		}
+	}
+	
+	"classmodelpanel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
+		
+		"xpos"			"150"
+		"ypos"			"9999"
+		"zpos"			"10"		
+		"wide"			"130"
+		"tall"			"260"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"render_texture"	"0"
+		"fov"			"12"
+		"allow_rot"		"1"
+
+		"disable_speak_event"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+				
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x"		"0"
+			"angles_y"		"145"
+			"angles_z"		"0"
+			"origin_x" "250"
+			"origin_y" "-5"
+			"origin_z" "-80"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+		
+			"modelname"		""
+			
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+				"default"	"1"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"		"MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"		"BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"		"PDA"
+				"activity"	"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"		"ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
+			}						
+			"animation"
+			{
+				"name"		"ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
+			}									
+			"animation"
+			{
+				"name"		"MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
+			"animation"
+			{
+				"name"		"PRIMARY2"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY2"
+				"activity"	"ACT_MP_STAND_SECONDARY2"
+			}
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"25"
+				"angles_x"		"-17"
+				"angles_y"		"145"
+				"angles_z"		"0"
+				"origin_x"		"105"
+				"origin_y"		"4"
+				"origin_z"		"-82"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-3"
+				"origin_z"		"-97"
+			}
+			"Soldier"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"170"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"25"
+				"angles_x"		"-13"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"138"
+				"origin_y"		"-4"
+				"origin_z"		"-93"
+			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"178"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-5"
+				"origin_z"		"-96"
+			}
+			"Heavy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"200"
+				"origin_y"		"0"
+				"origin_z"		"-102"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"175"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Spy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-95"
+			}
+			"Engineer"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"168"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-82"
 			}
 		}
 	}
