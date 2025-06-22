@@ -7,6 +7,7 @@ https://steamcommunity.com/groups/metrohud
 Hud questions here:
 https://steamcommunity.com/groups/metrohud/discussions/0/596273710810322542/
 
+Screenshot Gallery:
 https://imgur.com/a/NTpeUfB
 
 ## v2.7
