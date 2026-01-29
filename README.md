@@ -8,7 +8,18 @@ Hud questions here:
 https://steamcommunity.com/groups/metrohud/discussions/0/596273710810322542/
 
 Screenshot Gallery:
-https://imgur.com/a/NTpeUfB
+https://imgur.com/a/metrohud-2-10-2-NTpeUfB
+
+## v2.10.2 (1/28/22)
+	- Added 20 ingame settings buttons
+	- Added Speedometer toggle
+	- Overhauled Match Hud and Koth Timers
+	- Rebuilt all loadout screens
+	- Fixed shop for real this time
+	- new targetID's prioritize medic experience, heal target ammo is now larger
+	- New Loading Screen when joining a server
+	- Removed small loading icon when booting up game
+	
 
 
 ## v2.7
