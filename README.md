@@ -9,7 +9,7 @@ Hud questions here:
 https://steamcommunity.com/groups/metrohud/discussions/0/596273710810322542/
 
 Screenshot Gallery:
-[[https://imgur.com/a/metrohud-2-10-2-NTpeUfB](https://imgur.com/a/metrohud-2-12-2-march-2026-DNSKWk1)](https://imgur.com/a/metrohud-2-12-2-march-2026-DNSKWk1)
+https://imgur.com/a/metrohud-2-12-2-march-2026-DNSKWk1
 
 Alt Download
 https://tf2huds.dev/hud/metrohud
